@@ -147,7 +147,7 @@
       const instancesOf = data.reduce((obj, item) => {
         // this 'if' statement is saying if object property does not exist
         if (!obj[item]) {
-          obj[item] = ""; // create one and set it's initial value to 0
+          obj[item] = 0; // create one and set it's initial value to 0
         }
         obj[item]++;
         return obj;
